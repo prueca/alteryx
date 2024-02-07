@@ -1,0 +1,24 @@
+A, B, C, D
+
+IF
+    B = 0 AND
+    C = 0 AND
+    D = 0
+THEN A
+
+ELSEIF
+    B != NULL
+THEN B * -1
+
+ELSEIF
+    A = 0 AND
+    B = 0 AND
+    D = 0
+THEN C
+
+ELSEIF
+    A = 0 AND
+    B = 0 AND
+    C = 0
+THEN D * -1
+ENDIF
